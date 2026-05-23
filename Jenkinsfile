@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         // ---- APNI DETAILS KE ACCORDING EDIT KAREIN ----
-        DOCKER_HUB_USER  = 'your-dockerhub-username' 
+        DOCKER_HUB_USER  = 'pravesh2201' 
         IMAGE_NAME       = 'secure-node-app'
         IMAGE_TAG        = "${BUILD_NUMBER}"
         FULL_IMAGE_PATH  = "${DOCKER_HUB_USER}/${IMAGE_NAME}:${IMAGE_TAG}"
